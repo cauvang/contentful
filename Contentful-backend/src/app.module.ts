@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { APIStoryModule } from './module/usingAPI/story.module';
 import { ConfigModule } from '@nestjs/config';
+import { APIStoryModule } from './module/usingAPI/story.module';
 import { GraphStoryModule } from './module/usingGraphQL/story.module';
 
 @Module({

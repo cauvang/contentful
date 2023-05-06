@@ -4,7 +4,7 @@ import { ISuccessStory } from '../interface/ISuccessStory';
 
 @Injectable()
 export class StoryService {
-  constructor() {}
+  // constructor() {}
 
   public async getSuccessStories(): Promise<ISuccessStory[]> {
     const stories = await this.getEntries('successStories');
